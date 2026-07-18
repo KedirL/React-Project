@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #0A1428;
+    color: #f6fafe;
+    border-top: 1px solid #1E2A44;
+    align-items: center;
+    height: 150px;
+    border-radius: 1.3rem;
+}
+
+.social {
+
+    display: flex;
+    gap: 1.3rem;
+    
+}
+
+.footer p{
+    color: whitesmoke;
+}

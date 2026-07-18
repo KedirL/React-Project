@@ -1,0 +1,135 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #0A1428 0%, #1E2A44 100%);
+    color: #E2E8F0;
+    box-shadow: 0 4px 20px rgba(0, 212, 255, 0.15);
+    border-radius: 0.4rem;
+    height: 130px;
+    font-size: larger;
+}
+
+h2{
+    padding: 1rem;
+    color:#E2E8F0 ;
+}
+
+.search {
+  position: relative;
+}
+
+.search-results {
+  background: #1E2A44;
+  border: 2px solid #00D4FF;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 10px 25px rgba(0, 212, 255, 0.2);
+  max-height: 320px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.search-result-item,
+.search-results li {
+  padding: 14px 18px;
+  color: #090e14;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+}
+
+.search-result-item:hover,
+.search-results li:hover {
+  background: #2A3A5A;
+  color: #00D4FF;
+  padding-left: 22px; 
+}
+.search-results li:hover {
+  background-color: #f0f0f0;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+.search input{
+  background: #1E2A44;
+  border: 2px solid #00D4FF;
+  color: #E2E8F0;
+  font-size: larger;
+  padding: 0.4rem;
+}
+
+.search button{
+  font-size: larger;
+  padding: 0.41rem;
+}
+
+.search button:hover{
+  background-color: #FF6B00;
+}
+
+.search input:focus {
+  border-color: #FF6B00;
+  box-shadow: 0 0 0 4px rgba(0, 212, 255, 0.2);
+}
+
+.links a{
+    gap: 2rem;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0.5rem;
+    color: #E2E8F0;
+    transition: color 0.3s;
+}
+
+a:hover{
+    border: 3px solid whitesmoke;
+    border-radius: 1rem;
+    color: #00D4FF;
+}
+
+p{
+    align-self: center;
+    color: black;
+}
+
+.search-results {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+  z-index: 100;
+}
+
+
+.movie-details {
+  margin: 20px auto;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+
